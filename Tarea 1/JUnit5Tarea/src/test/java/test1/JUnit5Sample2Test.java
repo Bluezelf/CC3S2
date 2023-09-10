@@ -7,7 +7,7 @@ public class JUnit5Sample2Test {
 
     // Verifica que los 2 parametros que le pongamos sean IGUALES, si es asi la prueba continua, si no FALLA
     @Test
-    void testAssertEqual() {
+    void testAssertEqual(){
         assertEquals("ABC", "ABC");
         assertEquals(20,20, "Mensaje Opcional");
         assertEquals(2 + 2, 4);
