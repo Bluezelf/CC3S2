@@ -52,3 +52,45 @@ def binary_multiple_de_4?(s)
   bool
 end
 
+class BookInStock
+  @precio
+  @isbn
+
+  def precio
+    @precio
+  end
+
+  def precio=(precio)
+    @precio = precio
+  end
+
+  def isbn
+    @isbn
+  end
+
+  def isbn=(isbn)
+    @isbn = isbn
+  end
+
+  def initialize(isbn, precio)
+    #Verifica que el ISBN sea una cadena y no este vacia
+    if isbn.is_a?(String) && !isbn.empty?
+      @isbn = isbn
+    else
+      raise ArgumentError, "El isbn no puede estar vacio"
+    end
+    #Verifica si el precio es float y sea mayor que 0
+    if (precio.is_a?(Float) || precio.is_a?(Integer)) && precio > 0
+      @precio = precio
+    else
+      raise ArgumentError, "El precio deber ser flotante y mayor que 0"
+    end
+  end
+
+  def price_as_string
+    if @precio.is_a?(Integer)
+      "$#{@precio}.00"
+    end
+    "$#{format("%.2f", @precio).to_s}"
+  end
+end
