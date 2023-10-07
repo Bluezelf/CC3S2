@@ -1,4 +1,4 @@
-#App Basica con Sinatra
+# App Basica con Sinatra
 
 En este repositorio se encuentra el app basica desplegada en heroku usando sinatra,
 se puede acceder a ella mediante el siguiente link:
