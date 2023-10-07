@@ -1,3 +1,10 @@
+#App Basica con Sinatra
+
+En este repositorio se encuentra el app basica desplegada en heroku usando sinatra,
+se puede acceder a ella mediante el siguiente link:
+https://sleepy-reef-34661-5f83e83ea834.herokuapp.com/
+
+----
 # PC1 WordGuesser
 
 En este repositorio se encuentra el proyecto completo de WordGuesser.
