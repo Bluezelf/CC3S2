@@ -1,0 +1,16 @@
+<h1>Agregar nuevo comentario</h1>
+<%=form_with scope: :review, url:reviews_path, local:true do |form| %>
+  <p>
+<p>
+  <%=form.label :name %><br>
+  <%=form.text_field :name %>
+</p>
+
+<p>
+  <%=form.label :description %><br>
+  <%=form.text_area :description %>
+</p>
+<p>
+  <%=form.submit %>
+</p>
+<%end%>
