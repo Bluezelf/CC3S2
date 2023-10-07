@@ -11,7 +11,7 @@ Puede probarse en el siguiente link
 https://sleepy-woodland-65351-79ed722376c6.herokuapp.com  
 
 El documento PDF está en  
-https://github.com/chandler-pc/WordGuesser---PC1/blob/main/PC1.pdf  
+https://github.com/Bluezelf/CC3S2/blob/main/PC1/PC1.pdf
 
 El video de encuentra en  
 https://drive.google.com/file/d/1IVC0aE81Wq6QEC4jqEJNx4DHLyuSSawk/view?usp=sharing
